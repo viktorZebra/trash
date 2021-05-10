@@ -1,0 +1,144 @@
+File: /proc/2230/cmdline
+./mdaemon
+
+/proc/2230/cwd -> //mdaemon
+
+/proc/2230/exe -> /home/viktorzebra/OSlab4/trash/mdaemon
+
+File: /proc/2230/fd
+0 -> socket:[30827]
+1 -> /home/viktorzebra/OSlab4/trash/daemon.pid
+
+/proc/2230/root -> /proc/2230/fd/1
+
+File: /proc/2230/environ
+USER=viktorzebra
+LOGNAME=viktorzebra
+HOME=/home/viktorzebra
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+SHELL=/usr/bin/zsh
+TERM=xterm
+XDG_SESSION_ID=4
+XDG_RUNTIME_DIR=/run/user/1000
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+XDG_SESSION_TYPE=tty
+XDG_SESSION_CLASS=user
+MOTD_SHOWN=pam
+LANG=en_US.UTF-8
+SSH_CLIENT=192.168.1.15 55074 22
+SSH_CONNECTION=192.168.1.15 55074 192.168.1.159 22
+SSH_TTY=/dev/pts/1
+SHLVL=1
+PWD=/home/viktorzebra/OSlab4/trash
+OLDPWD=/home/viktorzebra/OSlab4
+P9K_TTY=old
+_P9K_TTY=/dev/pts/1
+ZSH=/home/viktorzebra/.oh-my-zsh
+PAGER=less
+LESS=-R
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+P9K_SSH=1
+_=/home/viktorzebra/OSlab4/trash/./mdaemon
+
+File: /proc/2230/maps
+5610f1d17000-5610f1d18000 r--p 00000000 08:02 2105                       /home/viktorzebra/OSlab4/trash/mdaemon
+5610f1d18000-5610f1d19000 r-xp 00001000 08:02 2105                       /home/viktorzebra/OSlab4/trash/mdaemon
+5610f1d19000-5610f1d1a000 r--p 00002000 08:02 2105                       /home/viktorzebra/OSlab4/trash/mdaemon
+5610f1d1a000-5610f1d1b000 r--p 00002000 08:02 2105                       /home/viktorzebra/OSlab4/trash/mdaemon
+5610f1d1b000-5610f1d1c000 rw-p 00003000 08:02 2105                       /home/viktorzebra/OSlab4/trash/mdaemon
+5610f2bf2000-5610f2c13000 rw-p 00000000 00:00 0                          [heap]
+7f0351ab9000-7f0351aba000 ---p 00000000 00:00 0 
+7f0351aba000-7f03522ba000 rw-p 00000000 00:00 0 
+7f03522ba000-7f03522bd000 rw-p 00000000 00:00 0 
+7f03522bd000-7f03522e2000 r--p 00000000 08:05 10079                      /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f03522e2000-7f035245a000 r-xp 00025000 08:05 10079                      /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f035245a000-7f03524a4000 r--p 0019d000 08:05 10079                      /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f03524a4000-7f03524a5000 ---p 001e7000 08:05 10079                      /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f03524a5000-7f03524a8000 r--p 001e7000 08:05 10079                      /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f03524a8000-7f03524ab000 rw-p 001ea000 08:05 10079                      /usr/lib/x86_64-linux-gnu/libc-2.31.so
+7f03524ab000-7f03524af000 rw-p 00000000 00:00 0 
+7f03524af000-7f03524be000 r--p 00000000 08:05 10189                      /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7f03524be000-7f0352565000 r-xp 0000f000 08:05 10189                      /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7f0352565000-7f03525fc000 r--p 000b6000 08:05 10189                      /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7f03525fc000-7f03525fd000 r--p 0014c000 08:05 10189                      /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7f03525fd000-7f03525fe000 rw-p 0014d000 08:05 10189                      /usr/lib/x86_64-linux-gnu/libm-2.31.so
+7f03525fe000-7f0352605000 r--p 00000000 08:05 10250                      /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f0352605000-7f0352616000 r-xp 00007000 08:05 10250                      /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f0352616000-7f035261b000 r--p 00018000 08:05 10250                      /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f035261b000-7f035261c000 r--p 0001c000 08:05 10250                      /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f035261c000-7f035261d000 rw-p 0001d000 08:05 10250                      /usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+7f035261d000-7f0352623000 rw-p 00000000 00:00 0 
+7f035262a000-7f035262b000 r--p 00000000 08:05 10048                      /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f035262b000-7f035264e000 r-xp 00001000 08:05 10048                      /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f035264e000-7f0352656000 r--p 00024000 08:05 10048                      /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f0352657000-7f0352658000 r--p 0002c000 08:05 10048                      /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f0352658000-7f0352659000 rw-p 0002d000 08:05 10048                      /usr/lib/x86_64-linux-gnu/ld-2.31.so
+7f0352659000-7f035265a000 rw-p 00000000 00:00 0 
+7ffdef212000-7ffdef233000 rw-p 00000000 00:00 0                          [stack]
+7ffdef356000-7ffdef359000 r--p 00000000 00:00 0                          [vvar]
+7ffdef359000-7ffdef35a000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+File: /proc/2230/stat
+                 pid:	 2230
+            filename:	 (mdaemon)
+               state:	 S
+                ppid:	 1
+                 gid:	 2230
+             session:	 2230
+              tty_nr:	 0
+              tp_gid:	 -1
+               flags:	 1077936192
+              minflt:	 59
+             cminflt:	 0
+              majflt:	 0
+             cmajflt:	 0
+               utime:	 20
+               stime:	 22
+              cutime:	 0
+              cstime:	 0
+            priority:	 20
+                nice:	 0
+         num_threads:	 2
+         itrealvalue:	 0
+          start_time:	 16773
+               vsize:	 12468224
+                 rss:	 27
+              rsslim:	 18446744073709551615
+           startcode:	 94630776500224
+             endcode:	 94630776507861
+          startstack:	 140728615509296
+             kstkesp:	 0
+             kstkeip:	 0
+              signal:	 0
+             blocked:	 2147221247
+           sigignore:	 0
+            sigcatch:	 0
+               wchan:	 0
+               nswap:	 0
+              cnswap:	 0
+         exit_signal:	 17
+           processor:	 1
+         rt_priority:	 0
+              policy:	 0
+delayacct_blkio_tics:	 0
+          quest_time:	 0
+         cquest_time:	 0
+          start_data:	 94630776515712
+            end_data:	 94630776516624
+           start_brk:	 94630792077312
+           arg_start:	 140728615511859
+             arg_end:	 140728615511869
+           env_start:	 140728615511869
+             env_end:	 140728615514094
+
+File: /proc/2230/statm
+                size:	 3044
+            resident:	 27
+               share:	 0
+                 trs:	 2
+                 drs:	 0
+                 lrs:	 2135
+                  dt:	 0
+

@@ -13,7 +13,7 @@
 #include <time.h>
 
 
-#define LOCKFILE "/home/ilya/Desktop/operating-systems/Semester #6/lab4/part1/daemon.pid"
+#define LOCKFILE "home/viktorzebra/OSlab4/trash/daemon.pid"
 #define LOCKMODE (S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH) 
 
 
